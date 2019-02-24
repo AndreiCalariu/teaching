@@ -46,7 +46,11 @@ end
 
 1. Implement a **Divide by 2 Counter** in Verilog.
 
+![Divide by 2 Counter][img_1]
+
 2. Implement a **4-bit Asynchronous Up Counter** in Verilog.
+
+![4-bit Asynchronous Up Counter][img_2]
 
 3. Create a testbench as in [Example][code_1]
 
@@ -68,4 +72,8 @@ end
 
 [8] [The D-type Flip Flop](https://www.electronics-tutorials.ws/sequential/seq_4.html)
 
-[code_1]:https://github.com/sebastianardelean/teaching/blob/master/OC/templates/d_ff_tb.v  
+[code_1]: https://raw.githubusercontent.com/sebastianardelean/teaching/master/OC/templates/d_ff_tb.v
+
+[img_1]: divide_by_two_counter.png 
+
+[img_2]:
