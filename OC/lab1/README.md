@@ -52,4 +52,15 @@ end
 
 [2] [J.L.Hennessy, D.A. Patterson, Computer Architecture a Quantitive Approach 4th edition]()
 
-[3] [VHDL Tutorial: Learn By Example](http://esd.cs.ucr.edu/labs/tutorial/)
+[3] [M.Vladutiu, Computer Arithmetic: Algorithms and Hardware Implementations]()
+
+[4] [VHDL Tutorial: Learn By Example](http://esd.cs.ucr.edu/labs/tutorial/)
+
+[5] [Verilog Tutorial](http://www.asic-world.com/verilog/veritut.html)
+
+[6] [Latches and Flip-Flops](http://www.cs.ucr.edu/~ehwang/courses/cs120b/flipflops.pdf)
+
+[7] [Digital Counters](http://www.learnabout-electronics.org/Digital/dig56.php)
+
+[8] [The D-type Flip Flop](https://www.electronics-tutorials.ws/sequential/seq_4.html)
+
