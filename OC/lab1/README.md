@@ -76,4 +76,4 @@ end
 
 [img_1]: divide_by_two_counter.png 
 
-[img_2]:
+[img_2]: 4_bit_async_counter.png
