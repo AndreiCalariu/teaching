@@ -20,3 +20,6 @@ ing. Sebastian Mihai ARDELEAN
 | 18-20 | OC(B521) |       | OC(B520) |     |          |
 | 20-22 | OC(B521) |       |          |     |          |
 
+## Situatie Prezenta
+
+[Prezenta Laborator OC](https://docs.google.com/spreadsheets/d/1T3bSE0mTKOsQNhuOjMdJrRvjIh8bwPiaC9XK4b4cjH8/edit?usp=sharing)
