@@ -1,6 +1,42 @@
 # Organizarea Calculatoarelor
 
-## Laborator 1( 26 Feb- 2 Mar 2018)
+## Laborator 1
+
+### General Info
+
+1. Define a Sequential Logic Circuit.
+2. Define a Combinational Logic Circuit.
+3. Latch vs Flip-Flop
+
+
+### Verilog Implementations ( Examples)
+
+```Verilog
+//Combinational
+always 
+	@(signal_input_state) 
+begin 
+	// signal_output_state = f(signal_input_state); 
+	
+end
+
+```
+
+```Verilog
+//sequential
+always 
+	@(posedge clk, posedge rst) 
+begin 
+	if (rst) 
+		signal_state_CURRENT <= 1'b0; 
+	else 
+                signal_state_CURRENT <= signal_state_NEXT; 
+end
+```
+
+
+
+
 
 ### Tools
 
