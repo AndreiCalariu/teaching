@@ -8,6 +8,14 @@ prof. dr. ing. Mihai UDRESCU
 
 ing. Sebastian Mihai ARDELEAN
 
+### Informatii
+
+Email:  ardeleansm@gmail.com
+
+[Linkedin](https://www.linkedin.com/in/ardelean-sebastian-mihai/)
+
+
+
 ## Orar Laborator
 
 | Ora   | Luni     | Marti | Miercuri | Joi | Vineri   |
