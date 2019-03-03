@@ -52,7 +52,7 @@ END.
 
 [4] [Verilog Tutorial](http://www.asic-world.com/verilog/veritut.html)
 
-[5]: https://github.com/ardeleanasm/teaching/blob/master/OC/templates/booth_tb.v
+[5]: ../templates/booth_tb.v
 
-[booth_flowchart]:https://raw.githubusercontent.com/ardeleanasm/teaching/master/OC/lab3/booth_flowchart.PNG
+[booth_flowchart]:booth_flowchart.PNG
 
