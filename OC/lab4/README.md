@@ -18,7 +18,7 @@ Note: You can use the following flowchart for Radix-4 Booth:
 
 ### Assignment
 
-1. Implement radix-4 Booth Algorithm in Verilog.
+1. Implement Radix-4 Booth Algorithm in Verilog.
 
 ```
 register A[8:0],Q[7:-1],M[7:0],COUNT[1:0];
@@ -40,9 +40,35 @@ OUTPUT:
 END.
 ```
 
+2. Implement Modified Booth Algorithm in Verilog.
 
+```
+            declare register A[7:0],Q[8:0],M[7:0],COUNT[2:0],R;
+            declare bus INBUS[7:0],OUTBUS[7:0];
+BEGIN:      A:=0, COUNT:=0,R:=0,                                                {c_0}
+INPUT:      M:=INBUS;                                                           {c_0}
+            Q[7:0]:=INBUS[7:0],Q[8]:=INBUS[7];                                  {c_1}
+ZEROTEST:   if ORQ=0 then go to OUTPUT,
+            if ORM!=0 then go to TEST1, else Q:=0, go to OUTPUT;                {c_2}
+TEST1:      if (M[7]=1 and Q[0]=0) then
+                A[7]:=0,A[6:0].Q:=A.Q[8:1],COUNT:=COUNT+1,go to TEST1;          {c_3,c_4}
+TEST2:      if R=0 then begin
+                if Q[1]Q[0]=01 then A:=A+M;                                     {c_5}
+                if Q[1]Q[0]=11 then A:=A-M,R:=1, else go to TEST3;              {c_5,c_6,c_7}
+            end
+            if R=1 then begin
+                if Q[1]Q[0]=00 then A:=A+M,R:=0;                                {c_5,c_8}
+                else if Q[1]Q[0]=10 then A:=A-M;                                {c_5,c_6}
+            end
+            if COUNT7=1 then go to OUTPUT,
+TEST3:      A[7]:=R EXOR M[7],A[6:0].Q=A.Q[8:1],                                {c_3,c_9}
+RIGHTSHIFT: COUNT:=COUNT+1, go to TEST2;                                        {c_3,c_9}
+INCREMENT:  OUTBUS:=A,Q[1]:=0;                                                  {c_10}
+OUTPUT:     OUTBUS[7:0]:=Q[8:1];                                                {c_11}
+END:                                                                            {END}
+```
 
-2. Create a testbench as in [Example][5]
+3. Create a testbench as in [Example][5]
 
 
 ### Bibliography
