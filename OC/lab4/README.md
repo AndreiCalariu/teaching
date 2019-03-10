@@ -5,12 +5,14 @@
 
 ### Exercises
 
-1. Using radix-4 Booth Algorithm multiply 69 ( 0100 0101) with -45 ( 1101 0011).
-2. Using radix-4 Booth Algorithm multiply -123 ( 1000 0101) with -105 ( 1001 0111).
-3. Using radix-4 Booth Algorithm -105 * 2^-7 (1001 0111) with -89 * 2^-7 (1010 0111). Result must be 9345*2^-14 (0100 1001 0000 0010)
+1. Using Modified Booth Algorithm multiply -13 ( 10011) with -15 ( 10001).
+2. Using Modified Booth Algorithm multiply 69 ( 0100 0101) with -45 ( 1101 0011).
+3. Using Modified Booth Algorithm multiply -123 ( 1000 0101) with -105 (1001 0111).
+4. Using Radix-4 Booth Algorithm multiply 69 ( 0100 0101) with -45 ( 1101 0011).
+5. Using Radix-4 Booth Algorithm multiply -123 ( 1000 0101) with -105 ( 1001 0111).
 
 
-Note: You can use the following flowchart:
+Note: You can use the following flowchart for Radix-4 Booth:
 
 ![radix-4 Booth's Algorithm flowchart][radix4_flowchart]
 
@@ -54,5 +56,5 @@ END.
 
 [5]: https://github.com/ardeleanasm/teaching/blob/master/OC/templates/booth_tb.v
 
-[radix4_flowchart]:https://raw.githubusercontent.com/ardeleanasm/teaching/master/OC/lab4/radix4.png
+[radix4_flowchart]:radix4.png
 
